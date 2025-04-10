@@ -1,5 +1,16 @@
 - npm init -y 
-- npm i mongoose express jsonwebtoken cookie-parser multer bcrypt
+- npm i mongoose express jsonwebtoken cookie-parser multer bcrypt debug
+
+-- Setting up debugger
+- npm i debug
+- const dbgr = require("debug")("development:mongoose")
+- in cmd - set DEBUG=development:*
+- if want to remove - set DEBUG=
+
+-- envirnoment variable 
+- 
+console.log(process.env.NODE_ENV); to check if it is setup or not
+- set NODE_ENV=development
 
 
 -- Git 
