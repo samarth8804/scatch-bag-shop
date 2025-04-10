@@ -1,2 +1,29 @@
 - npm init -y 
 - npm i mongoose express jsonwebtoken cookie-parser multer bcrypt
+
+
+-- Git 
+
+- git init 
+- git add .
+- git commit -m "initial setup"
+
+-- usermodel 
+- username - string
+- full name - string 
+- email - string
+- password - string
+- cart - array
+- isAdmin - bool
+- orders - array
+- contact - number
+- picture - db
+
+-- productmodel
+- image
+- name
+- price
+- discount
+- bg color
+- text color
+- panel color
