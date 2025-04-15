@@ -1,5 +1,5 @@
 - npm init -y 
-- npm i mongoose express jsonwebtoken cookie-parser multer bcrypt debug
+- npm i mongoose express jsonwebtoken cookie-parser multer bcrypt debug ejs dotenv express-session connect-flash
 
 -- Setting up debugger
 - npm i debug
@@ -38,3 +38,10 @@ console.log(process.env.NODE_ENV); to check if it is setup or not
 - bg color
 - text color
 - panel color
+
+-- / -> signup or login
+-- /shop -> shop
+-- /users/cart -> cart
+-- /admin -> admin panel
+-- /owner/products -> show all products
+-- /owner/admin -> show admin panel to create products
