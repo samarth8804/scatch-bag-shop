@@ -18,6 +18,9 @@ console.log(process.env.NODE_ENV); to check if it is setup or not
 - git init 
 - git add .
 - git commit -m "initial setup"
+- git remote add origin https://github.com/samarth8804/scatch-bag-shop.git
+- git branch -M main
+- git push -u origin main
 
 -- usermodel 
 - username - string
